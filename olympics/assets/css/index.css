@@ -1,0 +1,33 @@
+body {
+	overflow-x: hidden;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1.no-span {
+  display: table;
+  white-space: nowrap;
+}
+h1.no-span:before,
+h1.no-span:after {
+  border-top: 3px solid #CC9A23;
+  content: '';
+  display: table-cell;
+  position: relative;
+  top: 0.5em;
+  width: 30%;
+}
+h1.no-span:before {
+  right: 1.5%;
+}
+h1.no-span:after {
+  left: 1.5%;
+}
+
+.video {
+	height: 400px;
+}

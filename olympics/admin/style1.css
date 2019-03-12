@@ -1,0 +1,38 @@
+.btn-group {
+	width: 100%;
+}
+
+thead {
+	width: 100%;
+}
+
+tbody {
+	width: 100%;
+}
+tr {
+	width: 100vw;
+	height: 100%;
+}
+
+td{
+	width: 12.5%;
+}
+
+td > img {
+	max-height: 300px;
+	width: 100%;
+}
+
+input[type=file] {
+	width: 90px;
+	color: transparent;
+}
+
+.output {
+	width: 200px;
+}
+
+body.modal-open {
+    overflow: hidden;
+    position: fixed;
+}

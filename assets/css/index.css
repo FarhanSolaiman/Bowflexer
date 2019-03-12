@@ -1,0 +1,97 @@
+* {
+	font-family: 'Roboto',sans-serif;
+}
+
+body {
+	overflow-x: hidden;
+	width: 100vw;
+}
+
+.close {
+	outline: none;
+}
+
+.close:active, .close:focus {
+	outline: none;
+}
+
+#carou {
+	height: 70vh;
+	width: 80%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.car {
+	border-radius: 5px;
+	border: 3px solid rgb(35,35,35,0.7);
+}
+
+.car, .car1 {
+	height: 100%;
+	width: 100%;
+}
+
+#first {
+	background-image: url(../images/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#second {
+	background-image: url(../images/bow-hunting.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.enter_site {
+	width: 430px;
+	height: 350px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%) skew(-15deg);
+	background: rgb(41,41,41,0.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 7px;
+	border: 5px solid #D28E22;
+}
+
+.cont {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	transform: skew(15deg);
+}
+
+.arc {
+	font-family: 'Roboto Condensed',sans-serif;
+	font-size: 40px;
+	color: #D28E22;
+	text-shadow: 0 0 10px black;
+}
+
+.cli {
+	border: 3px solid #D28E22;
+	padding: 2px 20px;
+	border-radius: 4px;
+	background: transparent;
+	color: #D28E22;
+	font-family: 'Roboto Condensed',sans-serif;
+	font-size: 20px;
+	cursor: pointer;
+	text-shadow: 0 0 10px black;
+	box-shadow: 0 0 5px black;
+	outline: none;
+}
+
+.cli:active, .cli:focus, .lina:active, .lina:focus {
+	outline: none;
+}
+

@@ -1,0 +1,82 @@
+.footer {
+	background-color: #2C2B2B;
+	color: #ECECEC;
+	height:100%;
+	width: 100vw;
+	position: relative;
+	bottom: 0%;
+}
+
+.row {
+	height: 100%;
+	width: 100%; 	
+}
+
+.head {
+	color: #D28E22;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+#mid {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#mid > img {
+	width: 80%;
+	image-rendering: crisp-edges;
+}
+
+#end {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+}
+
+.logos {
+	height: 70px;
+}
+
+.navs {
+	height: 100%;
+	width: 100%;
+	background-color: #DEDCDC;
+	display: flex;
+	color: #252525;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#nav1 > a, .navs > p, .navs > p > a {
+	margin: 0 30px;
+	color: #252525;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+
+a,.close {
+	outline: none;
+}
+
+a:active, a:focus, .close:active, .close:focus {
+	outline: none;
+}
+
+@media only screen and (max-width: 600px) {
+	#end {
+		align-items: center;
+	}
+	#nav1 > a, .navs > p, .navs > p > a {
+		text-align: center;
+	margin: 0 10px;
+	font-size: 24px;
+}
+
+body.modal-open {
+    overflow: hidden;
+    position: fixed;
+}

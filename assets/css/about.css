@@ -1,0 +1,38 @@
+* {
+	font-family: 'Roboto',sans-serif;
+}
+
+body {
+	overflow-x: hidden;
+	width: 100vw;
+}
+
+#head {
+	font-family: 'Roboto Condensed',sans-serif;
+	color: #D28E22;
+}
+
+#about {
+	height: 100%;
+	width: 90%;
+	border-radius: 4px;
+	background: linear-gradient(to right bottom, #FFFFFF,#D6D6D6);
+}
+
+#shop {
+	width: 100%;
+}
+
+#wahid {
+	text-align: right;
+}
+
+.text {
+	font-family: 'Roboto Condensed',sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+	#wahid {
+		text-align: left;
+	}
+}

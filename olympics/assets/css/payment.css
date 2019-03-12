@@ -1,0 +1,80 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.userdetails, .paymentmet {
+  border: 2px solid #979797;
+  border-radius: 10px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.text {
+  font-family: 'Roboto Condensed',sans-serif;
+  font-size: 20px;
+}
+
+#row {
+  margin: 0;
+}
+
+.productlist {
+  border: 2px solid #979797;
+  border-radius: 10px;
+}
+
+.dem
+
+.product-image {
+  width: 20%;
+}
+
+.product-details {
+  width: 37%;
+}
+
+.product-price {
+  width: 12%;
+}
+
+.product-quantity {
+  width: 10%;
+}
+
+.product-line-price {
+  width: 12%;
+  text-align: right;
+  color: #CDA210;
+}
+
+.product {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+.product .product-image {
+  text-align: center;
+}
+.product .product-image img {
+  width: 150px;
+}
+.product .product-details .product-title {
+  margin-right: 20px;
+  font-size: 35px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.product .product-details .product-description {
+  margin: 5px 20px 5px 0;
+  line-height: 1.4em;
+}
+.product .product-quantity input {
+  width: 40px;
+}
+

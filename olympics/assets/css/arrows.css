@@ -1,0 +1,24 @@
+* {
+	font-family: 'Roboto',sans-serif;
+}
+
+body {
+	overflow-x: hidden; 
+	width: 100vw;
+}
+
+.break {
+	width: 100%;
+}
+
+.break:last-child {
+	display: none;
+}
+
+.image {
+	width: 100%;
+}
+
+.big {
+	font-family: 'Roboto Condensed',sans-serif;
+}
